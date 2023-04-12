@@ -1,0 +1,10 @@
+numba==0.50.1
+numpy==1.19.1
+scipy==1.5.2
+seaborn==0.10.1
+ipynb==0.5.1
+ipython==7.17.0
+jupyter-client==6.1.6
+jupyter-core==4.6.3
+jupyterlab==2.2.2
+jupyterlab-server==1.2.0
