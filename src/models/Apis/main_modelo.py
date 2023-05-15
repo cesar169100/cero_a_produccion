@@ -44,7 +44,7 @@ def predict_water_portability(answer:Answer):
     # Reformat columns. NO ASIGNA EL DATO NUEVO A LA COLUMNA CORRESPONDIENTE
     single_instance_ohe = pd.get_dummies(single_instance).reindex(columns = ohe_tr).fillna(0)
     prediction=model.predict(single_instance_ohe)
-    response={"Indice académico":prediction[0]}
+    response={"Indice académico":prediction[0].astype(float)}
     return response
 
     

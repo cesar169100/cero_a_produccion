@@ -25,5 +25,7 @@ data2 = {
     }
 
 url="http://127.0.0.1:8000/prediccion"
+# Esta url tiene una interfaz automatizada para la documentación de la api
+# url="http://127.0.0.1:8000/docs" 
 response=requests.post(url,json=data)
 print(response.json())
